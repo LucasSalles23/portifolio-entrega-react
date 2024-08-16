@@ -1,19 +1,19 @@
-import React, { useState } from 'react';
-import barsIcon from '../../assets/bars.png';
-import xmarkIcon from '../../assets/xmark.png';
+import React, { useState } from 'react'
+import barsIcon from '../../assets/bars.png'
+import xmarkIcon from '../../assets/xmark.png'
 
-import "../../style/style.css";
-import "../../style/responsivo.css";
-import "../../style/global.css";
-import styles from '../../style/header.module.css';
+import "../../style/style.css"
+import "../../style/responsivo.css"
+import "../../style/global.css"
+import styles from '../../style/header.module.css'
 
 
 export const Header = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false)
 
     const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen);
-    };
+        setIsMenuOpen(!isMenuOpen)
+    }
 
     return (
         <>
@@ -46,5 +46,5 @@ export const Header = () => {
 
             </div>
         </>
-    );
-};
+    )
+}

@@ -4,5 +4,5 @@ export const MainSection = ({ children }) => {
     <main>
       {children}
     </main>
-  );
-};
+  )
+}

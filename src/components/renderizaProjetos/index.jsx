@@ -1,21 +1,21 @@
 import imgGit from "../../assets/projetos-img-git.png"
 import imgArrow from "../../assets/projetos-img-arrow.png"
 
-import { projects } from "../../data/projects";
+import { projects } from "../../data/projects"
 
 export const RenderizaProjetos = () => {
     return (
         <>
             {projects.map((element, index) => {
-                let newLabel;
+                let newLabel
                 if (index === 0) {
                     newLabel = (
                         <div className="projetos-titulo-new">
                             <h3>New</h3>
                         </div>
-                    );
+                    )
                 } else {
-                    newLabel = null;
+                    newLabel = null
                 }
 
                 return (
@@ -46,8 +46,8 @@ export const RenderizaProjetos = () => {
                             </div>
                         </div>
                     </div>
-                );
+                )
             })}
         </>
-    );
-};
+    )
+}
