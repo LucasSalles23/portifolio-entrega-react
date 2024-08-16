@@ -1,0 +1,490 @@
+
+.bannerSection {
+    display: flex;
+    width: 100%;
+    height: 652px;
+    background-color: var(--grey-5);
+    padding-top: 98px;
+    padding-bottom: 98px;
+    padding-left: 238px;
+    overflow: hidden;
+
+}
+
+.bannerSectionContainer {
+    width: 1500px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.bannerSectionContainer .esquerda {
+    width: 60.7%;
+    height: 497px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.bannerSectionContainer .esquerda .fotoENome {
+    display: flex;
+    align-items: center;
+    width: 278px;
+    height: 58px;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.bannerSectionContainer .esquerda .fotoENome img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+.bannerSectionContainer .esquerda .fotoENome p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bannerSectionContainer .esquerda .titulo {
+    width: 607px;
+    height: 94px;
+    margin-bottom: 32px;
+}
+
+.bannerSectionContainer .esquerda .titulo h1 {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.bannerSectionContainer .esquerda .titulo span {
+    color: var(--color-primary);
+}
+
+.bannerSectionContainer .esquerda .apresentacao {
+    width: 538px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 32px;
+    color: var(--grey-3);
+}
+
+.bannerSectionContainer .esquerda .botaoBanner {
+    display: flex;
+    width: 224px;
+    justify-content: space-between;
+
+}
+
+.bannerSectionContainer .esquerda .botaoBanner button {
+    width: 160px;
+    height: 48px;
+    color: white;
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+
+.bannerSectionContainer .esquerda .botaoBanner img {
+    width: 48px;
+    height: 48px;
+}
+
+
+.bannerSectionContainer .esquerda .tecnologias {
+    display: flex;
+    width: 437.16px;
+    height: 68.16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.bannerSectionContainer .direita {
+    width: 550px;
+    height: 652px;
+}
+
+.bannerSectionContainer .direita img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: -98px;
+}
+
+
+.listSection {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 939px;
+    background-color: var(--grey-0);
+    color: white;
+    padding: 56px 236px;
+    font-family: "Inter", sans-serif;
+    margin: 0 auto;
+}
+
+.listSection h1 {
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.listSection-titulo {
+    display: flex;
+    flex-direction: column;
+    width: 242px;
+    height: 75px;
+    justify-content: space-between;
+    margin-bottom: 84px;
+}
+
+.listSection-titulo h1 {
+    height: 29px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.listSection-titulo p {
+    height: 26px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.projetos-cards {
+    width: 1030px;
+    height: 579px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 482px;
+    height: 226px;
+    color: var(--grey-3);
+}
+
+.projetos .projetos-titulo {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projetos .projetos-titulo h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--grey-1);
+}
+
+.projetos .projetos-titulo-new {
+    width: 43px;
+    height: 22px;
+    background-color: var(--color-primary-new);
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projetos .projetos-titulo-new h3 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.projetos-linguagens {
+    width: 187px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.projetos-linguagens-destaque {
+    display: flex;
+    width: 86px;
+    height: 24px;
+    padding: 0px, 8px, 0px, 8px;
+    background-color: var(--grey-5);
+    color: var(--grey-3);
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.projetos-paragrafo {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.projetos-botoes {
+    display: flex;
+    width: 279px;
+    height: 28px;
+    justify-content: space-between;
+}
+
+.projetos-botoes div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 28px;
+}
+
+.projetos-botoes .git-logo {
+    width: 126px;
+}
+
+
+.projetos-botoes .arrow-logo {
+    width: 108px;
+}
+
+.projetos-botoes img {
+    width: 18px;
+    height: 18px;
+}
+
+.projetos-botoes a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--grey-3);
+}
+
+.projetos-botoes a:hover {
+    color: var(--grey-1);
+}
+
+
+.sobreMim-secao {
+    display: flex;
+    width: 100%;
+    height: 730px;
+    color: var(--grey-1);
+    background-color: var(--grey-5);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sobreMim {
+    display: flex;
+    width: 1021px;
+    height: 487px;
+    justify-content: space-between;
+
+}
+
+
+.sobreMim-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    width: 415px;
+    height: 201px;
+}
+
+.sobreMim-titulo h2 {
+    width: 100%;
+    height: 125px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.sobreMim-titulo h2 span {
+    color: var(--color-primary);
+}
+
+.sobreMim-titulo p {
+    color: var(--grey-3);
+    width: 404px;
+    height: 48px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.sobreMim-redes-sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 439px;
+    height: 487px;
+    font-family: "Inter", sans-serif;
+}
+
+.sobreMim-redes-sociais h3 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sobreMim-redes-sociais p {
+    display: flex;
+    color: var(--grey-3);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sobreMim-redes-sociais a {
+    color: var(--grey-1);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-redes-sociais {
+    display: flex;
+    width: 439px;
+    height: 117px;
+    justify-content: space-between;
+}
+
+.card-redes-sociais-img {
+    width: 72px;
+    height: 72px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.info-redes-sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 339px;
+    height: 117px;
+}
+
+#wpp {
+    background: linear-gradient(180deg, #50C571 0%, #50CF9A 100%);
+}
+
+
+#email {
+    background: linear-gradient(180deg, #BD3B9B 0%, #EE5BC7 100%);
+}
+
+#linkedin {
+    background: linear-gradient(180deg, #4E73FF 0%, #506CCF 100%);
+
+}
+
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 170px;
+    background-color: var(--grey-0);
+    color: white;
+    padding: 0 239px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.obrigado {
+    display: flex;
+    width: 522px;
+    height: 69px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+.obrigado img {
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+}
+
+.obrigado-titulo {
+    font-family: "Inter", sans-serif;
+    width: 410.5px;
+    height: 69px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.obrigado-titulo h1 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.obrigado-titulo p {
+font-size: 14px;
+font-weight: 400;
+color: var(--grey-3);
+}
+
+
+.obrigado-redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    height: 48px;
+}
+
+.obrigado-redes-sociais .bolinhas {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.facebook img {
+    width: 10px;
+    height: 18px;
+}
+
+.instagram img,
+.linkedin img {
+    width: 16px;
+    height: 16px;
+}
+
+
+.obrigado-redes-sociais .facebook {
+    background-color: #506CCF;
+}
+
+.obrigado-redes-sociais .instagram {
+    background-color: #CF50AC;
+}
+
+.obrigado-redes-sociais .linkedin {
+    background-color: #0E76A8;
+}
+
+
+.menuHamburguer {
+    display:none;
+}

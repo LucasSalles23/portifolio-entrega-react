@@ -1,0 +1,231 @@
+@media (max-width: 768px) {
+
+
+    html {
+        overflow-x: hidden;
+    }
+
+
+
+    .bannerSection {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 10% 5%;
+        margin: 0 auto;
+    }
+
+    .bannerSectionContainer {
+        display: flex;
+        width: 100%;
+    }
+
+
+    .bannerSectionContainer .esquerda {
+        width: 100%;
+        min-height: 579px;
+        max-height: 100%;
+        justify-content: space-between;
+    }
+
+    .bannerSectionContainer .direita {
+        display: none;
+    }
+
+    .bannerSectionContainer .esquerda .fotoENome {
+        display: flex;
+        align-items: center;
+        width: 278px;
+        height: 58px;
+        margin-bottom: 0;
+        justify-content: flex-start;
+        gap: 40px;
+    }
+
+
+    .bannerSectionContainer .esquerda .titulo {
+        display: flex;
+        width: 318px;
+        height: 148px;
+        margin: 0;
+    }
+
+
+    .bannerSectionContainer .esquerda .apresentacao {
+        width: 315px;
+        margin: 0;
+        line-height: 28px;
+    }
+
+
+
+    .bannerSectionContainer .esquerda .botaoBanner {
+        height: 48px;
+    }
+
+    .bannerSectionContainer .esquerda .botaoBanner button {
+        height: 48px;
+        margin: 0;
+    }
+
+    .bannerSectionContainer .esquerda .tecnologias {
+        display: flex;
+        width: 100%;
+        height: 68.16px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .listSection {
+        padding: 56px 5%;
+        height: 100%;
+    }
+
+    .listSection-titulo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .projetos {
+        margin-bottom: 50px;
+        width: 100%;
+        height: 282px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .projetos-cards {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .sobreMim-secao {
+        height: 100%;
+    }
+
+    .sobreMim {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 10% 5%;
+        margin-bottom: 50px;
+    }
+
+    .sobreMim-redes-sociais {
+        width: 100%;
+        height: 100%;
+        gap: 50px;
+    }
+
+    .sobreMim-titulo {
+        width: 100%;
+        max-width: 100%;
+        height: 279px;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+
+    .card-redes-sociais {
+        width: 100%;
+        gap: 40px;
+    }
+
+    .card-redes-sociais-img {
+        min-width: 72px;
+        min-height: 72px;
+    }
+
+    .sobreMim-titulo h2 {
+        padding: 5% 5% 5% 0%;
+        height: 100%;
+    }
+
+    .sobreMim-titulo p {
+        max-width: 100%;
+    }
+
+    .info-redes-sociais p {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        max-width: 100%;
+        height: 438px;
+        flex-direction: column;
+        padding: 10% 5%;
+    }
+
+    .obrigado {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 188px;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .obrigado-titulo {
+        width: 100%;
+    }
+
+    .obrigado-redes-sociais {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+
+    .menuHamburguer.open {
+        display: block;
+        width: 375px;
+        height: 247px;
+        background-color: var(--grey-0);
+        margin-top: -1px;
+        position: absolute;
+        transform: translateY(0);
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        padding: 0px 23px;
+    }
+
+    .menuHamburguer.closed {
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .menuHamburguer.open ul {
+        display: flex;
+        flex-direction: column;
+        width: 107px;
+        height: 186px;
+        justify-content: space-between;
+        margin-top: 24px;
+    }
+
+    .menuHamburguer.open ul li {
+        list-style: none;
+    }
+
+    .menuHamburguer.open ul li a {
+        text-decoration: none;
+        font-size: 16px;
+        color: var(--grey-3);
+        cursor: pointer;
+    }
+
+    .menuHamburguer.open ul li a:hover {
+        color: var(--grey-1);
+    }
+
+
+
+
+
+
+}
