@@ -27,12 +27,13 @@
 }
 
 .bannerSectionContainer .esquerda .fotoENome {
+    font-family: "Inter", sans-serif;
     display: flex;
     align-items: center;
     width: 278px;
     height: 58px;
-    justify-content: space-between;
     margin-bottom: 32px;
+    justify-content: space-between;
 }
 
 .bannerSectionContainer .esquerda .fotoENome img {
@@ -42,6 +43,8 @@
 }
 
 .bannerSectionContainer .esquerda .fotoENome p {
+        flex-grow: 1;
+    text-align: center; /* Centraliza o texto dentro do espaço disponível */
     font-size: 16px;
     font-weight: 400;
 }
